@@ -192,11 +192,10 @@ header {
   height: 23.8125rem;
   padding: 1rem;
   text-align: center;
- 
 }
 
 .milestone-card {
-    color: white;
+  color: white;
   background-image: url("assets/milestone-card.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -218,51 +217,90 @@ header {
 
 /* why us css */
 
-.why-us-card{
-    width: 390px;
-    margin: 20px 0;
+.why-us-card {
+  width: 390px;
+  margin: 20px 0;
 }
 
-.why-us .middle{
-    width: 30%
+.why-us .middle {
+  width: 30%;
 }
 
-.why-us .right, .why-us .left{
-    width: 35%;
+.why-us .right,
+.why-us .left {
+  width: 35%;
 }
 
-.why-us .icon{
-    padding: 10px;
-    width: 60px;
-    height: 60px;
-    background-color: var(--red);
-    border-radius: 0.625rem;
+.why-us .icon {
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: var(--red);
+  border-radius: 0.625rem;
 }
 
-.why-us .info{
-    width: 310px;
+.why-us .info {
+  width: 310px;
 }
 
-.why-us .icon img{
-    width: 100%;
+.why-us .icon img {
+  width: 100%;
 }
 
-.why-us .info h1{
-font-size: 1.125rem;
-font-weight: 400;
+.why-us .info h1 {
+  font-size: 1.125rem;
+  font-weight: 400;
 }
 
-.why-us .info p{
-font-size: 0.75rem;
+.why-us .info p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 0.9375rem; /* 125% */
+}
+
+.why-us .left {
+  justify-content: center;
+  align-items: flex-end;
+}
+.why-us .left .why-us-card {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+/* FAE section css */
+.fae-info {
+  width: 43rem;
+  color: white;
+  background-image: url("assets/fae-card.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 13rem;
+}
+
+.fae-img {
+    position: relative;
+    top: -7rem;
+    right: 2rem;
+  width: 42.75rem;
+  height: 37rem;
+}
+
+.fae-img img {
+  width: 100%;
+}
+
+.fae-info h1{
+font-size: 1.75rem;
+font-weight: 600;
+}
+
+.fae-info p{
+font-size: 0.9375rem;
 font-weight: 300;
-line-height: 0.9375rem; /* 125% */
-}
-
-.why-us .left{
-    justify-content: center;
-    align-items:flex-end;
-}
-.why-us .left .why-us-card{
-    flex-direction: row-reverse;
-    text-align: right;
+line-height: 1.5625rem; /* 166.667% */
+letter-spacing: 0.02813rem;
+width: 350px;
+margin-bottom: 20px;
+margin-top: 10px;
 }

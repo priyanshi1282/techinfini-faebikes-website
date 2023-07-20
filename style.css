@@ -447,3 +447,31 @@ font-weight: 300;
 .serve-logo img{
     width: 12rem;
 }
+
+/* contact us css */
+.contact{
+    background: #F5F5F5;
+}
+
+.contact .left, .contact .right{
+    width: 40%;
+}
+
+.contact .left .heading{
+    text-align: left;
+}
+
+.contact .left img{
+    width: 22rem;
+    margin-top: 20px;
+}
+
+.contact .left .btn{
+    width: fit-content;
+    background-color: var(--red);
+    color: white;
+}
+
+.contact .right{
+    width: 30rem;
+}

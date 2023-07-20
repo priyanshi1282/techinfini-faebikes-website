@@ -268,20 +268,29 @@ header {
 }
 
 /* FAE section css */
+.fae{
+    background: #F5F5F5;
+}
+.fae-container{
+    margin-top: 40px;
+    height: 480px;
+}
+
 .fae-info {
   width: 43rem;
+  height: 23rem;
   color: white;
   background-image: url("assets/fae-card.png");
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  left: 13rem;
+  left: 11rem;
 }
 
 .fae-img {
     position: relative;
-    top: -7rem;
-    right: 2rem;
+    top: -6rem;
+    right: 7rem;
   width: 42.75rem;
   height: 37rem;
 }
@@ -303,4 +312,33 @@ letter-spacing: 0.02813rem;
 width: 350px;
 margin-bottom: 20px;
 margin-top: 10px;
+}
+
+/* location css */
+.location{
+height: 34.875rem;
+padding: 20px;
+    background-image: url("assets/Locations\ we\ are\ Present\ bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.city-card{
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.79);
+    margin: 20px 0;
+}
+
+.city-card img{
+    width: 4.6875rem;
+height: 4.875rem;
+}
+
+.map{
+   position: relative;
+   left: 8rem;
+}
+
+.map img{
+    width: 90%;
 }

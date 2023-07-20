@@ -373,7 +373,7 @@ header {
   padding: 20px;
 }
 
-.note {
+.rider-card .note {
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -384,12 +384,48 @@ header {
   margin: 10px 0;
 }
 
-.name {
+.rider-card .name {
   font-size: 1.75rem;
   font-weight: 500;
 }
 
-.post {
+.rider-card .post {
   font-size: 1rem;
   font-weight: 300;
+}
+
+/* client testimonial css */
+.client-testimonial{
+    text-align: center;
+    background: #F5F5F5;
+    padding-top: 10px;
+}
+
+.client-card{
+    width: 400px;
+}
+
+.client-card .note{
+font-weight: 300;
+}
+
+.client-card img{
+    width: 100px;
+    margin: 10px 0;
+}
+
+.client-card .name{
+font-size: 1.5rem;
+font-weight: 500;
+}
+
+.client-card .post{
+    color: rgba(0, 0, 0, 0.50);
+font-size: 1.125rem;
+font-weight: 300;
+}
+
+.client-card .extra{
+font-size: 1.125rem;
+font-weight: 300;
 }

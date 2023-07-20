@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --red: #ed1f24;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  overflow-x: hidden;
+}
+
+.btn {
+  padding: 5px 20px;
+  border-radius: 0.3125rem;
+  background: #fff;
+  color: var(--red);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-outline {
+  text-align: center;
+  padding: 7px 20px;
+  color: var(--red);
+  border: 1px solid var(--red);
+  border-radius: 0.3125rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.8125rem;
+  font-weight: 600;
+}
+
+.sub-heading {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+/* navbar css */
+header {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  top: 17px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 12px 30px;
+  border-radius: 0.4375rem;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+  width: 130px;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.nav-icons-item {
+  font-size: 20px;
+  padding-left: 15px;
+  color: var(--red);
+  cursor: pointer;
+}
+
+/* hero section css */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/Home\ banner\ gb.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.hero-container {
+  width: 400px;
+  position: relative;
+  top: 8rem;
+  left: 16rem;
+}
+.hero-container h1 {
+  font-size: 3.125rem;
+  font-weight: 600;
+}
+
+.hero-container p {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* side button */
+.side-button {
+  position: absolute;
+  right: 0;
+}
+
+/* bike model css */
+.model-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.model-option {
+  text-align: center;
+  width: 390px;
+  padding: 10px;
+  border-radius: 0.625rem;
+  border: 1px solid rgba(0, 0, 0, 0.79);
+  background: #fff;
+}
+.model-option a {
+  width: 120px;
+}
+.model-option a:nth-child(2) {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.model-card-container {
+  gap: 20px;
+}
+
+.model-card-container i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.info-light {
+  color: rgba(0, 0, 0, 0.79);
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.info-dark {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.model-card hr {
+  margin: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.model-card img {
+  margin-bottom: 10px;
+}
+
+.info-dark span {
+  color: var(--red);
+}
+
+.model-card {
+  border-radius: 0.9375rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+  width: 300px;
+  padding: 1rem;
+}
+
+.model-link {
+  cursor: pointer;
+  text-decoration: underline;
+  width: 60%;
+  text-align: right;
+}
+
+/* milestone css */
+.milestone {
+  background-image: url("assets/Our\ Milestones\ bg.png");
+  height: 23.8125rem;
+  padding: 1rem;
+  text-align: center;
+ 
+}
+
+.milestone-card {
+    color: white;
+  background-image: url("assets/milestone-card.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 14.5625rem;
+  height: 13.8125rem;
+}
+
+.milestone-card h1 {
+  font-size: 2.1875rem;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.milestone-card p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-left: 30px;
+}

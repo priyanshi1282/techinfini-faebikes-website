@@ -355,14 +355,14 @@ header {
   text-align: center;
 }
 
-.rider-container{
-    margin-top: 20px;
-    gap: 30px;
+.rider-container {
+  margin-top: 20px;
+  gap: 30px;
 }
 
-.rider-container i{
-    font-size: 2rem;
-    cursor: pointer;
+.rider-container i {
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .rider-card {
@@ -395,83 +395,124 @@ header {
 }
 
 /* client testimonial css */
-.client-testimonial{
-    text-align: center;
-    background: #F5F5F5;
-    padding-top: 10px;
+.client-testimonial {
+  text-align: center;
+  background: #f5f5f5;
+  padding-top: 10px;
 }
 
-.client-card{
-    width: 400px;
+.client-card {
+  width: 400px;
 }
 
-.client-card .note{
-font-weight: 300;
+.client-card .note {
+  font-weight: 300;
 }
 
-.client-card img{
-    width: 100px;
-    margin: 10px 0;
+.client-card img {
+  width: 100px;
+  margin: 10px 0;
 }
 
-.client-card .name{
-font-size: 1.5rem;
-font-weight: 500;
+.client-card .name {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-.client-card .post{
-    color: rgba(0, 0, 0, 0.50);
-font-size: 1.125rem;
-font-weight: 300;
+.client-card .post {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.125rem;
+  font-weight: 300;
 }
 
-.client-card .extra{
-font-size: 1.125rem;
-font-weight: 300;
+.client-card .extra {
+  font-size: 1.125rem;
+  font-weight: 300;
 }
 
 /* companies we serve css */
-.serve-container{
-    gap: 3rem;
+.serve-container {
+  gap: 3rem;
 }
 
-.serve-container i{
-    color: var(--red);
-    font-size: 2rem;
+.serve-container i {
+  color: var(--red);
+  font-size: 2rem;
+  cursor: pointer;
 }
 
-.serve-logo{
-    gap: 4.8rem;
+.serve-logo {
+  gap: 4.8rem;
 }
 
-.serve-logo img{
-    width: 12rem;
+.serve-logo img {
+  width: 12rem;
 }
 
 /* contact us css */
-.contact{
-    background: #F5F5F5;
+.contact {
+  background: #f5f5f5;
 }
 
-.contact .left, .contact .right{
-    width: 40%;
+.contact .left,
+.contact .right {
+  width: 40%;
 }
 
-.contact .left .heading{
-    text-align: left;
+.contact .left .heading {
+  text-align: left;
 }
 
-.contact .left img{
-    width: 22rem;
-    margin-top: 20px;
+.contact .left img {
+  width: 22rem;
+  margin-top: 20px;
 }
 
-.contact .left .btn{
-    width: fit-content;
+.contact .left .btn {
+  width: fit-content;
+  background-color: var(--red);
+  color: white;
+}
+
+.contact .right {
+  width: 30rem;
+}
+
+/* footer css */
+footer {
+  background-image: url("assets/Footer.png");
+  height: 23rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.ft-nv-title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.ft-nv-item {
+  color: rgba(255, 255, 255, 0.66);
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.foot-bottom{
     background-color: var(--red);
-    color: white;
 }
 
-.contact .right{
-    width: 30rem;
+.foot-bottom p{
+    width: 50%;
+}
+.links a{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 12px;
+}
+
+.link a img{
+    width: 100%;
+    height: 100%;
 }

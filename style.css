@@ -429,3 +429,21 @@ font-weight: 300;
 font-size: 1.125rem;
 font-weight: 300;
 }
+
+/* companies we serve css */
+.serve-container{
+    gap: 3rem;
+}
+
+.serve-container i{
+    color: var(--red);
+    font-size: 2rem;
+}
+
+.serve-logo{
+    gap: 4.8rem;
+}
+
+.serve-logo img{
+    width: 12rem;
+}

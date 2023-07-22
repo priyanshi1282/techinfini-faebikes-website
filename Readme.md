@@ -1,5 +1,5 @@
 # Faebikes Website
-This is a static webpage for faebikes-home.
+This is a static webpage for faebikes-home. This website will be updated in future for better performance with dynamic behaviour.
 
 # Tech Stack
 - HTML5

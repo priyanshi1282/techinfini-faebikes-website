@@ -7,4 +7,4 @@ This is a static webpage for faebikes-home. This website will be updated in futu
 - Tailwind CSS
 
 # Figma Link
-<a href="https://www.figma.com/file/82Ta9PSbmAMdBsrGYqbqxe/faebikes-home?type=design&node-id=0%3A1&mode=dev" target="_blank">click here!</a>
+<a href="https://www.figma.com/file/82Ta9PSbmAMdBsrGYqbqxe/faebikes-home?type=design&node-id=0%3A1&mode=dev" target="_blank">click here to view!</a>

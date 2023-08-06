@@ -1,5 +1,5 @@
 # Faebikes Website
-This is a static webpage for faebikes-home. This website will be updated in future for better performance with dynamic behaviour. Also reactjs can be used for better performance.
+This is a static webpage for faebikes-home. This website will be updated in future for better performance with dynamic behaviour. Also reactjs can be used for better performance. Non responsive for now.
 
 # Tech Stack
 - HTML5
